@@ -16,7 +16,7 @@ Meteor.methods({
 		var carrier = subscription.carrier;		
 		Email.send({to:number +'@' + carrierList[carrier], from:'jkyuusai@gmail.com', subject:'Daily Compliment Registration', text:'You have been registered for the Daily Compliment.'});
 	},
-	unsubscribe: function(subscription) {			
-		Phones.remove(subscription._id);
+	removeContact: function(subscription) {			
+		Contacts.remove(subscription._id);
 	}
 });
