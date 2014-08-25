@@ -3,6 +3,7 @@ Template.addContact.events({
     e.preventDefault();
     Session.set('unsubscribed', false);
     var contact = {
+      name: $(e.target).find('[name=name]').val(),
       number: $(e.target).find('[name=phone]').val(),
       carrier:  $(e.target).find('[name=carrier]').val(),
     }
@@ -11,7 +12,9 @@ Template.addContact.events({
        if (error) {                  
         alert(error.reason);
       } else {
-        Meteor.call('sendEmail', Contacts.findOne(id));
+          console.log('contact added',Contacts.findOne(id));
+          
+        //Meteor.call('sendEmail', Contacts.findOne(id));
         //TODO: Go to newly created contact's edit page        
       }
     });     

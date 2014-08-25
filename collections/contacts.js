@@ -1,17 +1,35 @@
 Contacts = new Meteor.Collection('contacts');
+Contacts.allow({
+  update: ownsDocument,
+  remove: ownsDocument
+});
+
+Contacts.deny({
+  update: function(userId, contact, fieldNames) {
+    return (_.without(fieldNames, 'name', 'number', 'carrier').length > 0);
+  }
+});
 
 Meteor.methods({
   addContact: function(contactAttributes) {
-   // var user = Meteor.user(),
-      var contactWithSameNumber = Contacts.findOne({number: contactAttributes.number});
+    var user = Meteor.user(),
+        contactWithSameNumber = Contacts.findOne({number: contactAttributes.number});
+   
+    if (!user) {
+      throw new Meteor.Error(401, "You need to log in first!");
+    }
 
-    // ensure the user is logged in
-    // if (!user)
-    //   throw new Meteor.Error(401, "You need to login to post new stories");
+    if (!contactAttributes.name) {
+      throw new Meteor.Error(422, 'Please provide a name for the contact!');
+    }
 
-    // ensure a number was entered
-    if (!contactAttributes.number)
-      throw new Meteor.Error(422, 'Please fill in a number!');
+    if (!contactAttributes.number) {
+      throw new Meteor.Error(422, 'Please provide a phone number!');
+    }
+    
+    if (!contactAttributes.carrier) {
+      throw new Meteor.Error(422, 'Please provide the carrier for the phone number!');
+    }
 
     // check that there are no previous phones with the same number
     if (contactAttributes.number && contactWithSameNumber) {
@@ -19,8 +37,8 @@ Meteor.methods({
     }
 
     // pick out the whitelisted keys
-    var contact = _.extend(_.pick(contactAttributes, 'number', 'carrier'), {
-      //userId: user._id,
+    var contact = _.extend(_.pick(contactAttributes, 'name', 'number', 'carrier'), {
+      userId: user._id,
       submitted: new Date().getTime()
     });
 
