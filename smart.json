@@ -4,6 +4,9 @@
     "iron-router": {},
     "spin": {},
     "accounts-ui-bootstrap-3": {},
-    "kadira": {}
+    "kadira": {},
+    "moment": {},
+    "synced-cron": {},
+    "iron-router-active": {}
   }
 }

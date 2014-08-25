@@ -12,3 +12,7 @@ spin
 email
 accounts-ui-bootstrap-3
 kadira
+moment
+synced-cron
+accounts-password
+iron-router-active
