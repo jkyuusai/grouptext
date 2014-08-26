@@ -33,7 +33,7 @@ Meteor.methods({
 
     // check that there are no previous phones with the same number
     if (contactAttributes.number && contactWithSameNumber) {
-      throw new Meteor.Error(302,'' ,contactWithSameNumber._id);
+      throw new Meteor.Error(302,'Phone number is already registered to ' + contactWithSameNumber.name + '.');
     }
 
     // pick out the whitelisted keys

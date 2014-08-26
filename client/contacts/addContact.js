@@ -12,10 +12,9 @@ Template.addContact.events({
        if (error) {                  
         alert(error.reason);
       } else {
-          console.log('contact added',Contacts.findOne(id));
-          
-        //Meteor.call('sendEmail', Contacts.findOne(id));
-        //TODO: Go to newly created contact's edit page        
+          console.log('contact added',Contacts.findOne(id));          
+          //Meteor.call('sendEmail', Contacts.findOne(id));
+          Router.go('contactList');       
       }
     });     
   }
