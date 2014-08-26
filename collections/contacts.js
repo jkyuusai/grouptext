@@ -13,7 +13,7 @@ Contacts.deny({
 Meteor.methods({
   addContact: function(contactAttributes) {
     var user = Meteor.user(),
-        contactWithSameNumber = Contacts.findOne({number: contactAttributes.number});
+        contactWithSameNumber = Contacts.findOne({userId: Meteor.userId(), number: contactAttributes.number});
    
     if (!user) {
       throw new Meteor.Error(401, "You need to log in first!");
