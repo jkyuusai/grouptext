@@ -1,5 +1,5 @@
 Meteor.startup(function () {
- process.env.MAIL_URL = 'smtp://postmaster%40dailycompliment.meteor.com:f984a20b7071c023842f6f68c8bdca81@smtp.mailgun.org:587';
+	process.env.MAIL_URL = 'smtp://postmaster%40***REMOVED***:***REMOVED***@smtp.mailgun.org:587';
 });
 
 //TODO: Change this to a collection
@@ -11,10 +11,14 @@ var carrierList = {
 }
 
 Meteor.methods({
-	sendEmail: function(subscription) {
+	sendEmail: function(subscription, subject, body) {	
 		var number = subscription.number;
-		var carrier = subscription.carrier;		
-		Email.send({to:number +'@' + carrierList[carrier], from:'jkyuusai@gmail.com', subject:'Daily Compliment Registration', text:'You have been registered for the Daily Compliment.'});
+		var carrier = subscription.carrier;
+		Email.send({
+			to:number +'@' + carrierList[carrier], 
+			from:'grouptext@***REMOVED***', 
+			subject: subject, text: body
+		});
 	},
 	removeContact: function(subscription) {			
 		Contacts.remove(subscription._id);
