@@ -1,0 +1,28 @@
+<template name="contactEdit">
+  <form role="form">
+        <div class="form-group">       
+            <label for="name">Name</label>
+            <input class="form-control" name="name" type="text" value="{{name}}" placeholder="John Smith" required />
+        </div>
+        <div class="form-group">       
+            <label for="phone">Phone Number</label>
+            <input class="form-control" name="phone" type="tel" value="{{number}}" placeholder="(123)098-4568" required />
+        </div>
+        <div class="form-group">
+            <label for="carrier">Carrier</label>
+            <input class="form-control" name="carrier" type="text" value="{{carrier}}" placeholder="T-Mobile" required list="carriers"/>
+        </div>
+       
+        <datalist id="carriers">
+            <option value="AT&T"></option>
+            <option value="Verizon"></option>
+            <option value="TMobile"></option>
+            <option value="Sprint"></option>
+        </datalist>
+
+        <input type="submit" value="Save" class="btn btn-primary btn-lg"/>
+        <hr/>        
+        <a class="btn btn-danger btn-lg delete" href="#">Delete Contact</a>        
+
+      </form>
+</template>

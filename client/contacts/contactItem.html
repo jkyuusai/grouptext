@@ -1,7 +1,7 @@
 <template name="contactItem">
   <div class="contact">
     <div class="contact-content">
-      <h3>{{name}}</h3>     
+      <a href="{{pathFor 'contactEdit' _id}}">{{name}}</a> 
     </div>   
   </div>
 </template>

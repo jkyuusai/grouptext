@@ -5,7 +5,7 @@ Template.addContact.events({
     var contact = {
       name: $(e.target).find('[name=name]').val(),
       number: $(e.target).find('[name=phone]').val(),
-      carrier:  $(e.target).find('[name=carrier]').val(),
+      carrier:  $(e.target).find('[name=carrier]').val()
     }
 
     Meteor.call('addContact', contact, function (error, id) {
