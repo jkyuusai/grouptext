@@ -3,7 +3,7 @@ groupText
 
 Add contacts to your address book and send them texts for free.
 
-See the app in production at: http://grouptext2014.meteor.com
+See the app in production at: http://cfpb-frontend-dev-grouptext.meteor.com/
 
 Future Plans
 - Add more carriers
