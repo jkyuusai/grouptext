@@ -1,11 +1,15 @@
 <template name="sendMessage">
 	<form role="form">
+	
         <div class="form-group">       
             <label for="name">Message</label>
             <textarea class="form-control" rows="3" name="message" placeholder="This is a message." required></textarea>
         </div>
 
-         <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>    
         <hr/>
+
+        {{> contactPicker}}
+
+         <input type="submit" value="Send Message" class="btn btn-primary btn-lg"/>
     </form>
 </template>

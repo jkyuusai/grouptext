@@ -11,13 +11,16 @@ var carrierList = {
 }
 
 Meteor.methods({
-	sendEmail: function(subscription, subject, body) {	
-		var number = subscription.number;
-		var carrier = subscription.carrier;
+	sendEmail: function(contacts, subject, body) {
+		
+		var recipients = _.map(contacts, function(e) {
+			return e.number +'@' + carrierList[e.carrier];
+		});													
+		
 		Email.send({
-			to:number +'@' + carrierList[carrier], 
-			from:'grouptext@***REMOVED***', 
-			subject: subject, text: body
+			bcc: recipients,
+			from:'grouptext@***REMOVED***',
+			text: body
 		});
 	},
 	removeContact: function(subscription) {			

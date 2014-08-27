@@ -1,18 +1,14 @@
 Template.sendMessage.events({
-	'submit form': function(e) {
-	    e.preventDefault();
+	'submit form': function(e, template) {
+	    e.preventDefault();	    
 	    
-	    var message = {
-	      message: $(e.target).find('[name=message]').val()     
-	    }
+	    var message = template.$('[name=message]').val();
+	    var selected = template.findAll("input[type=checkbox]:checked");
 
-	    //TODO: implement contact selector
-	    var subscription = {
-	    	number:  '',
-	    	carrier: ''
-	    }
+	    var recipients = _.map(selected, function(e) {
+	    	return Contacts.findOne({_id:e.value});
+	    });    	
 
-	    console.log('about to send message', message.message);
-	    Meteor.call('sendEmail', subscription,'subject', message.message);
+	    Meteor.call('sendEmail', recipients,'subject', message);
 	}
 });
