@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"find",
+				"findOne"
+			],
+			[
 				"Subsc",
 				"Subscriptions"
 			],
@@ -58,7 +62,15 @@
 		]
 	},
 	"buffers":
-	[
+	[		
+		{
+			"file": "/home/joshua/software/repositories/worktodo",
+			"settings":
+			{
+				"buffer_size": 644,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -106,17 +118,92 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/joshua/software/repositories/grouptext",
+		"/home/joshua/software/repositories/grouptext/client",
+		"/home/joshua/software/repositories/grouptext/client/contacts"
+	],
 	"file_history":
 	[
-		"/home/joshua/software/repositories/dailyCompliment/collections/subscriptions.js",
-		"/home/joshua/software/repositories/dailyCompliment/server/server.js",
-		"/home/joshua/software/repositories/dailyCompliment/client/subscriptions/unsubscribe.js",
-		"/home/joshua/software/repositories/dailyCompliment/collections/compliments.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactItem.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactPickerItem.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactItem.html",
+		"/home/joshua/software/repositories/worktodo",
+		"/home/joshua/software/repositories/grouptext/server/server.js",
+		"/home/joshua/software/repositories/grouptext/client/messages/sendMessage.js",
+		"/home/joshua/software/repositories/microscope/client/views/includes/header.html",
+		"/home/joshua/software/repositories/grouptext/client/messages/sendMessage.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactPicker.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactPickerItem.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactPicker.html",
+		"/home/joshua/software/repositories/grouptext/lib/router.js",
+		"/home/joshua/software/repositories/grouptext/client/includes/header.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactList.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/addContact.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/addContact.js",
+		"/home/joshua/software/repositories/grouptext/collections/contacts.js",
+		"/home/joshua/software/repositories/grouptext/README.md",
+		"/home/joshua/software/repositories/microscope/lib/router.js",
+		"/home/joshua/software/repositories/microscope/client/helpers/config.js",
+		"/home/joshua/software/repositories/microscope/client/views/application/layout.html",
+		"/home/joshua/software/repositories/microscope/collections/posts.js",
+		"/home/joshua/software/repositories/grouptext/client/application/layout.js",
+		"/home/joshua/software/repositories/grouptext/client/application/layout.html",
+		"/home/joshua/software/repositories/grouptext/lib/permissions.js",
+		"/home/joshua/software/repositories/grouptext/.meteor/packages",
+		"/home/joshua/software/repositories/dailyCompliment/.meteor/packages",
+		"/home/joshua/software/repositories/dailyCompliment/smart.json",
+		"/home/joshua/software/repositories/grouptext/grouptext.sublime-project",
+		"/home/joshua/software/repositories/grouptext/collections/groups.js",
+		"/home/joshua/software/repositories/grouptext/.meteor/release",
+		"/home/joshua/software/repositories/dailyCompliment/smart.lock",
+		"/home/joshua/software/repositories/dailyCompliment/README.md",
 		"/home/joshua/software/repositories/dailyCompliment/server/fixtures.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactList.js",
+		"/home/joshua/software/repositories/grouptext/smart.json",
+		"/home/joshua/software/repositories/dailyCompliment/.gitignore",
+		"/home/joshua/software/repositories/dailyCompliment/packages/.gitignore",
+		"/home/joshua/software/repositories/microscope/client/helpers/errors.js",
+		"/home/joshua/software/repositories/dailyCompliment/server/server.js",
+		"/home/joshua/software/repositories/dailyCompliment/collections/compliments.js",
+		"/home/joshua/software/repositories/dailyCompliment/collections/subscriptions.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactEdit.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/contactEdit.js",
+		"/home/joshua/software/repositories/grouptext/server/kadira.js",
+		"/home/joshua/software/repositories/grouptext/client/helpers/errors.js",
+		"/home/joshua/software/repositories/microscope/lib/permissions.js",
+		"/home/joshua/software/repositories/microscope/client/views/posts/post_edit.html",
+		"/home/joshua/software/repositories/microscope/client/views/posts/post_edit.js",
+		"/home/joshua/software/repositories/grouptext/packages/.gitignore",
+		"/home/joshua/software/repositories/microscope/client/views/posts/post_submit.js",
+		"/home/joshua/software/repositories/microscope/client/views/posts/posts_list.js",
+		"/home/joshua/software/repositories/microscope/client/views/posts/posts_list.html",
+		"/home/joshua/software/repositories/microscope/client/views/posts/post_item.js",
+		"/home/joshua/software/repositories/microscope/client/views/posts/post_item.html",
+		"/home/joshua/software/repositories/microscope/server/publications.js",
+		"/home/joshua/software/repositories/grouptext/client/includes/loading.html",
+		"/home/joshua/software/repositories/dailyCompliment/dailyCompliment.sublime-project",
+		"/home/joshua/software/repositories/grouptext/packages/iron-router-active/LICENSE",
+		"/home/joshua/software/repositories/grouptext/.meteor/local/build/programs/ctl/node_modules/esprima/LICENSE.BSD",
+		"/home/joshua/software/repositories/grouptext/packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+		"/home/joshua/software/repositories/grouptext/client/contacts/removeContact.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/removeContact.js",
+		"/home/joshua/software/repositories/grouptext/packages/bootstrap-3/update.sh",
+		"/home/joshua/software/repositories/grouptext/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/uid-number/uid-number.js",
+		"/home/joshua/software/repositories/grouptext/.meteor/local/build/programs/ctl/node_modules/request/node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js",
+		"/home/joshua/software/repositories/grouptext/.meteor/local/build/programs/server/npm/minifiers/main/node_modules/uglify-js/node_modules/source-map/build/suffix-utils.jsm",
+		"/home/joshua/software/repositories/grouptext/client/includes/access_denied.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/finished.js",
+		"/home/joshua/software/repositories/grouptext/client/contacts/finished.html",
+		"/home/joshua/software/repositories/grouptext/client/contacts/subscribe.html",
+		"/home/joshua/software/repositories/grouptext/.meteor/local/build/programs/ctl/node_modules/source-map/build/suffix-utils.jsm",
+		"/home/joshua/software/repositories/grouptext/client/phones/subscribe.js",
+		"/home/joshua/software/repositories/grouptext/packages/kadira/lib/check_for_oplog.js",
+		"/home/joshua/software/repositories/dailyCompliment/client/subscriptions/unsubscribe.js",
 		"/home/joshua/software/repositories/dailyCompliment/lib/router.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/subscriptions/subscribe.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/subscriptions/subscribe.html",
-		"/home/joshua/software/repositories/dailyCompliment/README.md",
 		"/home/joshua/software/repositories/dailyCompliment/.deploy/settings.json",
 		"/home/joshua/software/repositories/dailyCompliment/.deploy/mup.json",
 		"/home/joshua/.ssh/id_rsa.pub",
@@ -125,13 +212,10 @@
 		"/home/joshua/software/repositories/dailyCompliment/client/phones/unsubscribe.html",
 		"/home/joshua/software/repositories/dailyCompliment/client/phones/subscribe.html",
 		"/home/joshua/software/repositories/dailyCompliment/client/phones/subscribe.js",
-		"/home/joshua/software/repositories/microscope/collections/posts.js",
 		"/home/joshua/Downloads/Untitled spreadsheet - Sheet1.csv",
 		"/home/joshua/software/repositories/dailyCompliment/server/kadira.js",
-		"/home/joshua/software/repositories/dailyCompliment/packages/.gitignore",
 		"/home/joshua/software/repositories/dailyCompliment/.meteor/.gitignore",
 		"/home/joshua/software/repositories/meteoremail/meteoremail.js",
-		"/home/joshua/software/repositories/dailyCompliment/smart.json",
 		"/home/joshua/software/repositories/dailyCompliment/client/includes/header.html",
 		"/home/joshua/software/repositories/dailyCompliment/client/phones/finished.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/phones/finished.html",
@@ -140,12 +224,9 @@
 		"/home/joshua/software/repositories/meteoremail/meteoremail.html",
 		"/home/joshua/software/repositories/dailyCompliment/.meteor/local/build/programs/server/packages/email.js",
 		"/home/joshua/software/repositories/dailyCompliment/.meteor/local/build/programs/client/packages/email.js",
-		"/home/joshua/software/repositories/dailyCompliment/.meteor/packages",
 		"/home/joshua/software/repositories/dailyCompliment/packages/kadira/tests/hijack/email.js",
 		"/home/joshua/software/repositories/dailyCompliment/packages/kadira/lib/hijack/email.js",
-		"/home/joshua/software/repositories/dailyCompliment/smart.lock",
 		"/home/joshua/software/repositories/dailyCompliment/server/email.js",
-		"/home/joshua/software/repositories/microscope/client/views/posts/post_submit.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/includes/loading.html",
 		"/home/joshua/software/repositories/dailyCompliment/client/posts/subscribe.html",
 		"/home/joshua/software/repositories/dailyCompliment/client/posts/subscribe.js",
@@ -165,7 +246,6 @@
 		"/home/joshua/software/repositories/dailyCompliment/client/posts/post_submit.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/posts/post_submit.html",
 		"/home/joshua/software/repositories/dailyCompliment/lib/permissions.js",
-		"/home/joshua/software/repositories/dailyCompliment/dailyCompliment.sublime-project",
 		"/home/joshua/software/repositories/dailyCompliment/collections/posts.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/posts/post_edit.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/posts/post_edit.html",
@@ -173,69 +253,7 @@
 		"/home/joshua/software/repositories/dailyCompliment/client/includes/errors.js",
 		"/home/joshua/software/repositories/dailyCompliment/client/includes/access_denied.html",
 		"/home/joshua/software/repositories/dailyCompliment/.meteor/release",
-		"/home/joshua/software/repositories/schedule/untitled.sublime-project",
-		"/home/joshua/software/repositories/microscope/untitled.sublime-project",
-		"/home/joshua/software/repositories/dailyCompliment/packages/blaze-layout/layout.js",
-		"/home/joshua/software/repositories/microscope/client/main.html",
-		"/home/joshua/software/repositories/wheelOfFeels/wheel.html",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/schedule.js",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/schedule.html",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/discussionItem.html",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/discussionItem.js",
-		"/home/joshua/software/repositories/json_resume/joshua_skinner_resume.json",
-		"/home/joshua/software/repositories/json_resume/lib/index.js",
-		"/home/joshua/software/repositories/json_resume/build.js",
-		"/home/joshua/software/repositories/schedule/lib/permissions.js",
-		"/home/joshua/software/repositories/schedule/collections/discussions.js",
-		"/home/joshua/software/repositories/schedule/collections/sections.js",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/section.html",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/section.js",
-		"/home/joshua/software/repositories/schedule/client/main.js",
-		"/home/joshua/software/repositories/schedule/client/views/includes/header.html",
-		"/home/joshua/software/repositories/schedule/lib/router.js",
-		"/home/joshua/software/repositories/microscope/client/views/posts/posts_list.js",
-		"/home/joshua/software/repositories/microscope/client/views/posts/posts_list.html",
-		"/home/joshua/software/repositories/microscope/client/views/posts/post_page.html",
-		"/home/joshua/software/repositories/microscope/server/fixtures.js",
-		"/home/joshua/software/repositories/microscope/client/views/posts/post_item.js",
-		"/home/joshua/software/repositories/microscope/client/views/posts/post_item.html",
-		"/home/joshua/software/repositories/microscope/lib/router.js",
-		"/home/joshua/software/repositories/microscope/lib/permissions.js",
-		"/home/joshua/software/repositories/microscope/server/publications.js",
-		"/home/joshua/software/repositories/question",
-		"/home/joshua/software/repositories/schedule/server/publications.js",
-		"/home/joshua/software/repositories/schedule/client/main.html",
-		"/home/joshua/software/repositories/schedule/.meteor/packages",
-		"/home/joshua/software/repositories/schedule/packages/accounts-ui-bootstrap-3/login_buttons.html",
-		"/home/joshua/software/repositories/schedule/packages/accounts-ui-bootstrap-3/.build/browser/packages/accounts-ui-bootstrap-3.js",
-		"/home/joshua/software/repositories/schedule/packages/autoform/utility.js",
-		"/home/joshua/software/repositories/schedule/lib/helper.js",
-		"/home/joshua/software/repositories/schedule/server/fixtures.js",
-		"/home/joshua/software/repositories/schedule/packages/blaze-layout/layout.js",
-		"/home/joshua/software/repositories/schedule/.meteor/release",
-		"/home/joshua/.config/sublime-text-3/Packages/User/method.sublime-snippet",
-		"/home/joshua/.config/sublime-text-3/Packages/User/consolelog.sublime-snippet",
-		"/home/joshua/software/repositories/microscope/client/views/includes/header.html",
-		"/home/joshua/software/repositories/schedule/client/views/includes/loading.html",
-		"/home/joshua/software/repositories/schedule/.meteor/local/build/programs/client/app/client/views/includes/template.header.js",
-		"/home/joshua/software/repositories/schedule/packages/moment/lib/moment/test/moment/sod_eod.js",
-		"/home/joshua/software/repositories/schedule/client/stylesheets/style.css",
-		"/home/joshua/software/repositories/schedule/packages/iron-router/.build/npm/node_modules/connect/lib/middleware/cookieSession.js",
-		"/home/joshua/software/repositories/schedule/packages/iron-router/CONTRIBUTING.md",
-		"/home/joshua/software/repositories/schedule/packages/blaze-layout/overrides.js",
-		"/home/joshua/software/repositories/schedule/packages/accounts-ui-bootstrap-dropdown/.build/browser.json",
-		"/home/joshua/software/repositories/schedule/packages/accounts-ui-bootstrap-dropdown/login_buttons_dropdown.html",
-		"/home/joshua/software/repositories/schedule/packages/accounts-ui-bootstrap-dropdown/login_buttons_dropdown.js",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/discussionItem",
-		"/home/joshua/software/repositories/schedule/packages/iron-router/.build/npm/node_modules/connect/lib/middleware/staticCache.js",
-		"/home/joshua/software/repositories/schedule/packages/iron-router/.build/npm/node_modules/connect/node_modules/multiparty/test/standalone/test-content-transfer-encoding.js",
-		"/home/joshua/software/repositories/schedule/packages/iron-router/.build/npm/node_modules/connect/node_modules/multiparty/test/fixture/js/encoding.js",
-		"/home/joshua/software/repositories/schedule/smart.json",
-		"/home/joshua/software/repositories/schedule/client/views/schedule/full_schedule.html",
-		"/home/joshua/software/repositories/schedule/collections/sessions.js",
-		"/home/joshua/software/repositories/microscope/client/views/application/layout.html",
-		"/home/joshua/software/repositories/microscope/client/views/includes/loading.html",
-		"/home/joshua/software/repositories/microscope/client/views/application/layout.js"
+		"/home/joshua/software/repositories/schedule/untitled.sublime-project"
 	],
 	"find":
 	{
@@ -246,6 +264,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"<project>, -<project>/.meteor/*, -<project>/packages/*",
 			"/home/joshua/software/repositories/dailyCompliment, -/home/joshua/software/repositories/dailyCompliment/.meteor/*, -/home/joshua/software/repositories/dailyCompliment/packages/*",
 			"/home/joshua/software/repositories/schedule, -/home/joshua/software/repositories/schedule/.meteor/*, -/home/joshua/software/repositories/schedule/packages/*",
 			"/home/joshua/software/repositories/schedule, -/home/joshua/software/repositories/schedule/.meteor/*, -/home/joshua/software/repositories/schedule/.packages/*",
@@ -267,6 +286,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"moment",
+			"sendmessage",
+			"_.each",
 			".*",
 			",",
 			"([^,\\s])",
@@ -328,6 +350,40 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/home/joshua/software/repositories/worktodo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
@@ -336,7 +392,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -347,11 +403,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -368,7 +431,7 @@
 	"project": "grouptext.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -376,6 +439,154 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"router",
+				"lib/router.js"
+			],
+			[
+				"contactlist",
+				"client/contacts/contactList.html"
+			],
+			[
+				"layout",
+				"client/application/layout.js"
+			],
+			[
+				"server",
+				"server/server.js"
+			],
+			[
+				"header",
+				"client/includes/header.html"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"conta",
+				"collections/contacts.js"
+			],
+			[
+				"contact",
+				"client/contacts/contactItem.html"
+			],
+			[
+				"addc",
+				"client/contacts/addContact.js"
+			],
+			[
+				"add",
+				"client/contacts/addContact.js"
+			],
+			[
+				"serv",
+				"server/server.js"
+			],
+			[
+				"contactitemjs",
+				"client/contacts/contactItem.js"
+			],
+			[
+				"contactlist.j",
+				"client/contacts/contactList.js"
+			],
+			[
+				"contacti",
+				"client/contacts/contactItem.html"
+			],
+			[
+				"send",
+				"client/messages/sendMessage.html"
+			],
+			[
+				"sendmessa",
+				"client/messages/sendMessage.html"
+			],
+			[
+				"sendmes",
+				"client/messages/sendMessage.js"
+			],
+			[
+				"sendm",
+				"client/messages/sendMessage.html"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"contactedit",
+				"client/contacts/contactEdit.html"
+			],
+			[
+				"contactadd",
+				"client/contacts/addContact.js"
+			],
+			[
+				"contacted",
+				"client/contacts/contactEdit.html"
+			],
+			[
+				"kadira",
+				"server/kadira.js"
+			],
+			[
+				"contactlist.js",
+				"client/contacts/contactList.js"
+			],
+			[
+				"lib",
+				"lib/permissions.js"
+			],
+			[
+				"contacts",
+				"collections/contacts.js"
+			],
+			[
+				"addcontact",
+				"client/contacts/addContact.html"
+			],
+			[
+				"addcont",
+				"client/contacts/addContact.html"
+			],
+			[
+				"group",
+				"collections/groups.js"
+			],
+			[
+				"remove",
+				"client/contacts/removeContact.js"
+			],
+			[
+				"head",
+				"client/includes/header.html"
+			],
+			[
+				"removec",
+				"client/contacts/removeContact.js"
+			],
+			[
+				"removecont",
+				"client/contacts/removeContact.html"
+			],
+			[
+				"removeco",
+				"client/contacts/removeContact.html"
+			],
+			[
+				"finished.",
+				"client/contacts/finished.js"
+			],
+			[
+				"subscribe",
+				"client/contacts/subscribe.html"
+			],
+			[
+				"read",
+				"README.md"
+			],
 			[
 				"mu",
 				".deploy/mup.json"
@@ -387,10 +598,6 @@
 			[
 				"subscr",
 				"client/subscriptions/subscribe.html"
-			],
-			[
-				"read",
-				"README.md"
 			],
 			[
 				"uns",
@@ -409,20 +616,8 @@
 				"server/fixtures.js"
 			],
 			[
-				"router",
-				"lib/router.js"
-			],
-			[
 				"com",
 				"collections/compliments.js"
-			],
-			[
-				"server",
-				"server/server.js"
-			],
-			[
-				"subscribe",
-				"client/phones/subscribe.html"
 			],
 			[
 				"subsc",
@@ -441,20 +636,8 @@
 				"server/server.js"
 			],
 			[
-				"serv",
-				"server/server.js"
-			],
-			[
 				"kadir",
 				"server/kadira.js"
-			],
-			[
-				"head",
-				"client/includes/header.html"
-			],
-			[
-				"layout",
-				"client/application/layout.html"
 			],
 			[
 				"hea",
@@ -607,6 +790,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
