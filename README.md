@@ -22,3 +22,4 @@ Future Plans
 Todo:
 - Validate number before inserting
 - Validate carrier before inserting
+- Fix logged out message flashing when app is reloading
