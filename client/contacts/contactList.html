@@ -1,7 +1,11 @@
 <template name="contactList">
   <div class="contacts">
-    {{#each contacts}}
-      {{> contactItem}}
-    {{/each}}
+  	{{#unless currentUser}}
+  		<div class="jumbotron">Please log in or create an account to continue!</div>
+  	{{else}}
+	    {{#each contacts}}
+	      {{> contactItem}}
+	    {{/each}}
+	{{/unless}}
   </div>
 </template>

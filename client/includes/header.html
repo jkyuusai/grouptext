@@ -12,9 +12,9 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="{{isActiveRoute 'contactList'}}"><a href="{{pathFor 'contactList'}}">Address Book</a></li>
-          <li class="{{ isActiveRoute 'addContact'}}"><a href="{{pathFor 'addContact'}}">Add Contact</a></li>
-          <li class="{{ isActiveRoute 'sendMessage'}}"><a href="{{pathFor 'sendMessage'}}">Send Message</a></li>          
+          {{#if currentUser}}<li class="{{ isActiveRoute 'contactList'}}"><a href="{{pathFor 'contactList'}}">Address Book</a></li>{{/if}}
+          {{#if currentUser}}<li class="{{ isActiveRoute 'addContact'}}"><a href="{{pathFor 'addContact'}}">Add Contact</a></li>{{/if}}
+          {{#if currentUser}}<li class="{{ isActiveRoute 'sendMessage'}}"><a href="{{pathFor 'sendMessage'}}">Send Message</a></li>{{/if}}
         </ul>
         <!--<form class="navbar-form navbar-left" role="search">
           <div class="form-group">
