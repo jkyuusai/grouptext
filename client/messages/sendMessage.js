@@ -9,6 +9,13 @@ Template.sendMessage.events({
 	    	return Contacts.findOne({_id:e.value});
 	    });    	
 
-	    Meteor.call('sendEmail', recipients,'subject', message);
+	    Meteor.call('sendEmail', recipients,'subject', message, function(error, result) {
+	    	if(error) {
+	    		Toast.error(error.reason)
+	    	} else {
+	    		template.find('form').reset();	    		
+	    		Toast.success('Message sent!');
+	    	}
+	    });
 	}
 });

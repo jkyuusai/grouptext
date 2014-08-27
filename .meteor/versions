@@ -39,6 +39,7 @@ mongo-livedata@1.0.3
 mrt:accounts-ui-bootstrap-3@0.3.3
 mrt:iron-router-active@0.2.0
 mrt:moment@2.8.1
+mrt:toastjs@2.0.6
 npm-bcrypt@0.7.7
 observe-sequence@1.0.1
 ordered-dict@1.0.0

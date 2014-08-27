@@ -16,4 +16,5 @@ mrt:moment
 percolatestudio:synced-cron
 accounts-password
 mizzao:bootstrap-3
+mrt:toastjs
 

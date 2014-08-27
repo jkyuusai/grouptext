@@ -12,7 +12,7 @@ Template.addContact.events({
        if (error) {                  
         alert(error.reason);
       } else {                  
-          //Meteor.call('sendEmail', Contacts.findOne(id));
+          Toast.success('Contact added!');
           Router.go('contactList');       
       }
     });     
