@@ -6,14 +6,14 @@
 standard-app-packages
 autopublish
 insecure
-cmather:iron-router@0.8.2
-sacha:spin@2.0.4
+cmather:iron-router
+mrt:iron-router-active
+sacha:spin
 email
-accounts-ui-bootstrap-3
-kadira
-moment
-percolatestudio:synced-cron@0.1.1
+mrt:accounts-ui-bootstrap-3
+arunoda:kadira
+mrt:moment
+percolatestudio:synced-cron
 accounts-password
-mrt:iron-router-active@0.2.0
 mizzao:bootstrap-3
 
