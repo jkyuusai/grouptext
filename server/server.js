@@ -1,7 +1,3 @@
-Meteor.startup(function () {
-	process.env.MAIL_URL = 'smtp://postmaster%40***REMOVED***:***REMOVED***@smtp.mailgun.org:587';
-});
-
 //TODO: Change this to a collection
 var carrierList = {
 			'AT&T': 'mms.att.net',
