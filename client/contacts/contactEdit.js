@@ -12,7 +12,9 @@ Template.contactEdit.events({
 
     Contacts.update(currentContactId, {$set: contactProperties}, function(error) {
       if (error) {
-        alert(error.reason);
+        Toast.error(error.reason,'Error', sticky);
+      } else {
+        Toast.success('Contact updated!');
       }
     });
   },
@@ -22,8 +24,14 @@ Template.contactEdit.events({
 
     if (confirm("Delete this contact?")) {
       var currentContactId = this._id;
-      Contacts.remove(currentContactId);
-      Router.go('contactList');
+      
+      Contacts.remove(currentContactId, function(error) {
+        if (error) {
+          Toast.error(error.reason,'Error', sticky);
+        } else {
+          Router.go('contactList');
+        }
+      });     
     }
   }
 });

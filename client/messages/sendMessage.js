@@ -11,7 +11,7 @@ Template.sendMessage.events({
 
 	    Meteor.call('sendEmail', recipients,'subject', message, function(error, result) {
 	    	if(error) {
-	    		Toast.error(error.reason)
+	    		Toast.error(error.reason,'Error', sticky)
 	    	} else {
 	    		template.find('form').reset();	    		
 	    		Toast.success('Message sent!');

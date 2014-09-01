@@ -10,7 +10,7 @@ Template.addContact.events({
 
     Meteor.call('addContact', contact, function (error, id) {
        if (error) {                  
-        alert(error.reason);
+        Toast.error(error.reason,'Error', sticky);
       } else {                  
           Toast.success('Contact added!');
           Router.go('contactList');       
