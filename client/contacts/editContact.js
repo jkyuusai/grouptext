@@ -1,4 +1,4 @@
-Template.contactEdit.events({
+Template.editContact.events({
   'submit form': function(e) {
     e.preventDefault();
 
@@ -29,7 +29,7 @@ Template.contactEdit.events({
         if (error) {
           Toast.error(error.reason,'Error', sticky);
         } else {
-          Router.go('contactList');
+          Router.go('addressBook');
         }
       });     
     }

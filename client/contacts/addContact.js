@@ -1,7 +1,6 @@
 Template.addContact.events({
   'submit form': function(e, template) {
     e.preventDefault();
-    Session.set('unsubscribed', false);
     var contact = {
       name: template.$('[name=name]').val(),
       number: template.$('[name=phone]').val(),
@@ -13,7 +12,7 @@ Template.addContact.events({
         Toast.error(error.reason,'Error', sticky);
       } else {                  
           Toast.success('Contact added!');
-          Router.go('contactList');       
+          Router.go('addressBook');       
       }
     });     
   }
