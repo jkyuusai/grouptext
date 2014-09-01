@@ -1,11 +1,8 @@
 <template name="contactList">
   <div class="contacts">
-  	{{#unless currentUser}}
-  		<div class="jumbotron">Please log in or create an account to continue!</div>
-  	{{else}}
-	    {{#each contacts}}
-	      {{> contactItem}}
-	    {{/each}}
-	{{/unless}}
+	<h3>Contacts</h3>  
+	{{#each contacts}}
+		{{> contactItem}}
+	{{/each}}	
   </div>
 </template>

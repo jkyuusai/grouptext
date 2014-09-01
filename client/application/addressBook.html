@@ -1,0 +1,9 @@
+<template name="addressBook">
+	{{#unless currentUser}}
+		<div class="jumbotron">Please log in or create an account to continue!</div>
+	{{else}}
+		{{> contactList}}
+		<hr/>
+		{{> groupList}}
+	{{/unless}}
+</template>
