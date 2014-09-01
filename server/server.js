@@ -1,3 +1,7 @@
+Meteor.startup(function () {		
+	process.env.MAIL_URL = 'smtp://' + smtpKey + '@smtp.mailgun.org:587';
+});
+
 Meteor.publish('contacts', function(userId) {		
 	return Contacts.find( {userId:userId} );
 })
