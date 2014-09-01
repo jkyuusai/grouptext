@@ -1,0 +1,15 @@
+<template name="editGroup">
+    <form role="form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" name="name" type="text" value="{{name}}" placeholder="Knitting Club" required />
+        </div>
+        <div class="form-group">
+            <label for="members">Members</label>
+            <input class="form-control" name="members" type="text" placeholder="John, Jane" required />
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
+        <hr/>
+        <a class="btn btn-danger btn-lg delete" href="#">Delete Group</a>
+      </form>
+</template> 

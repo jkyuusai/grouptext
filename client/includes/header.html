@@ -14,6 +14,7 @@
         <ul class="nav navbar-nav">
           {{#if currentUser}}<li class="{{ isActiveRoute 'contactList'}}"><a href="{{pathFor 'contactList'}}">Address Book</a></li>{{/if}}
           {{#if currentUser}}<li class="{{ isActiveRoute 'addContact'}}"><a href="{{pathFor 'addContact'}}">Add Contact</a></li>{{/if}}
+          {{#if currentUser}}<li class="{{ isActiveRoute 'addGroup'}}"><a href="{{pathFor 'addGroup'}}">Add Group</a></li>{{/if}}
           {{#if currentUser}}<li class="{{ isActiveRoute 'sendMessage'}}"><a href="{{pathFor 'sendMessage'}}">Send Message</a></li>{{/if}}
         </ul>
         <!--<form class="navbar-form navbar-left" role="search">
