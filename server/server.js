@@ -2,9 +2,13 @@ Meteor.startup(function () {
 	process.env.MAIL_URL = 'smtp://' + smtpKey + '@smtp.mailgun.org:587';
 });
 
-Meteor.publish('contacts', function(userId) {		
+Meteor.publish('contacts', function(userId) {
 	return Contacts.find( {userId:userId} );
-})
+});
+
+Meteor.publish('groups', function(userId) {
+	return Groups.find( {userId:userId} );
+});
 
 //TODO: Change this to a collection? Unsure if there's a benefit to doing so.
 var carrierList = {
