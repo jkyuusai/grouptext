@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
 insecure
 sacha:spin
 email
@@ -17,4 +16,3 @@ mrt:toastjs
 meteorhacks:kadira
 iron:router
 zimme:iron-router-active
-

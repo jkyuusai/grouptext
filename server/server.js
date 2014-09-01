@@ -1,3 +1,7 @@
+Meteor.publish('contacts', function(userId) {		
+	return Contacts.find( {userId:userId} );
+})
+
 //TODO: Change this to a collection
 var carrierList = {
 			'AT&T': 'mms.att.net',
