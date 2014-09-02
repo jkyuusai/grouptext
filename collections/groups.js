@@ -17,15 +17,9 @@ Meteor.methods({
 	    var group = _.extend(_.pick(groupAttributes, 'name', 'members'), {
 	      userId: user._id,
 	      submitted: new Date().getTime()
-	    });
+	    });	    	
 
-	    	console.log('about to insert group',group);
-	    	
-
-	    var groupId = Groups.insert(group);
-
-	    	console.log('groupId',groupId);
-	    	
+	    var groupId = Groups.insert(group);	    	
 
     	return groupId;   
 	},
@@ -47,6 +41,7 @@ Meteor.methods({
 			group.members = [];
 		}
 
+		//TODO: change to each
 		for (var l = group.members.length; l >= 0; l--) {
 			var e = group.members[l];
 			if(e.name === contact.name) {
@@ -65,3 +60,5 @@ Meteor.methods({
 	    });
 	}
 });
+
+Groups.initEasySearch('name');

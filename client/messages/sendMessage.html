@@ -5,9 +5,18 @@
             <textarea class="form-control" rows="3" name="message" placeholder="This is a message." required></textarea>
         </div>
         <hr/>
-        {{> picker pick="contacts"}}
-        <hr/>
-        {{> picker pick="groups"}}
-         <input type="submit" value="Send Message" class="btn btn-primary btn-lg"/>
+
+        <div class="row">
+          <div class="col-md-4">
+                <label for="contacts">Contacts</label>
+                {{> esAutosuggest index="contacts" classes="contacts"}}
+          </div>
+          <div class="col-md-4">
+                <label for="groups">Groups</label>
+                {{> esAutosuggest index="groups" classes="groups"}}
+          </div>
+        </div>       
+
+         <input type="submit" value="Send Message" class="btn btn-primary btn-lg pull-right" style="margin-top: 2em;"/>
     </form>
 </template>

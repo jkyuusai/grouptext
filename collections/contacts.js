@@ -47,3 +47,5 @@ Meteor.methods({
     return contactId;
   }
 });
+
+Contacts.initEasySearch('name');

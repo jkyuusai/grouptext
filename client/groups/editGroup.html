@@ -6,7 +6,7 @@
         </div>
         <div class="form-group">
             <label for="members">Members</label>
-            <input class="form-control" name="members" type="text" placeholder="John, Jane" required />
+            {{> esAutosuggest index="contacts" classes="members"}}
         </div>
         <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
         <hr/>
