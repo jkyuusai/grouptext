@@ -1,0 +1,17 @@
+<template name="picker">
+	{{#if isContacts}}
+		<h3>Contacts</h3>
+		<div class="contacts">
+		{{#each contacts}}
+		  {{> contactPickerItem}}
+		{{/each}}
+		</div>
+	{{else}}
+		<h3>Groups</h3>
+		<div class="groups">
+	    {{#each groups}}
+	      {{> groupPickerItem}}
+	    {{/each}}
+	  </div>
+	{{/if}}
+</template>
