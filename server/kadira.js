@@ -1,1 +1,1 @@
-Kadira.connect('kDzAJjfTZ4XHvPNM8', '5fc1006f-12b8-44e7-997f-9f90885ae4da')
+Kadira.connect(kadiraAppId, kadiraAppSecret);
