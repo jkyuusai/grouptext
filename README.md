@@ -2,7 +2,7 @@ groupText
 ===============
 Add contacts to your address book and send them texts for free.
 
-Give the app a try [here](http://grouptext2014.meteor.com/). It's built using the [Meteor](http://www.meteor.com) framework.
+Give the app a try [here](http://grouptext2014.meteor.com/) (it's mobile friendly). It's built using the [Meteor](http://www.meteor.com) framework.
 
 *Sometimes during peak usage times, Meteor's hosting can be a little unresponive. If Meteor reports that the site is unavailable, try refreshing the page.*
 
