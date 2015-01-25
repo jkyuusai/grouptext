@@ -12,10 +12,10 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          {{#if currentUser}}<li class="{{ isActiveRoute 'addressBook'}}"><a href="{{pathFor 'addressBook'}}">Address Book</a></li>{{/if}}
-          {{#if currentUser}}<li class="{{ isActiveRoute 'addContact'}}"><a href="{{pathFor 'addContact'}}">Add Contact</a></li>{{/if}}          
-          {{#if currentUser}}<li class="{{ isActiveRoute 'addGroup'}}"><a href="{{pathFor 'addGroup'}}">Add Group</a></li>{{/if}}
-          {{#if currentUser}}<li class="{{ isActiveRoute 'sendMessage'}}"><a href="{{pathFor 'sendMessage'}}">Send Message</a></li>{{/if}}
+          {{#if currentUser}}<li class="{{ isActiveRoute regex='addressBook'}}"><a href="{{pathFor 'addressBook'}}">Address Book</a></li>{{/if}}
+          {{#if currentUser}}<li class="{{ isActiveRoute regex='addContact'}}"><a href="{{pathFor 'addContact'}}">Add Contact</a></li>{{/if}}          
+          {{#if currentUser}}<li class="{{ isActiveRoute regex='addGroup'}}"><a href="{{pathFor 'addGroup'}}">Add Group</a></li>{{/if}}
+          {{#if currentUser}}<li class="{{ isActiveRoute regex='sendMessage'}}"><a href="{{pathFor 'sendMessage'}}">Send Message</a></li>{{/if}}
         </ul>
         <!--<form class="navbar-form navbar-left" role="search">
           <div class="form-group">
