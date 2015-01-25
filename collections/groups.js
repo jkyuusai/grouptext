@@ -1,4 +1,4 @@
-Groups = new Meteor.Collection('groups');
+Groups = new Mongo.Collection('groups');
 
 Meteor.methods({
 	addGroup: function(groupAttributes) {

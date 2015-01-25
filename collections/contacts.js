@@ -1,4 +1,4 @@
-Contacts = new Meteor.Collection('contacts');
+Contacts = new Mongo.Collection('contacts');
 Contacts.allow({
   update: ownsDocument,
   remove: ownsDocument
